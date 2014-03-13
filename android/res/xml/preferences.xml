@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright 2011 Robert Theis
+ Copyright 2012 Hai Do Minh
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- GENERAL SETTINGS -->
+    <PreferenceCategory android:title="Use mode settings" >
+        <CheckBoxPreference android:key="preference_online" android:title="Offline Mode" android:summary="(Using online server to OCR if not set)"/><CheckBoxPreference
+            android:entries="@array/capturemodes"
+            android:key="preference_capture_continuous"
+            android:title="Real time" android:summary="(For using Offline OCR only)" android:dependency="preference_online"/>
+
+        <ListPreference
+            android:entries="@array/languagenames"
+            android:entryValues="@array/iso6393"
+            android:key="sourceLanguageCodeOcrPref"
+            android:title="OCR language" />
+        
+    </PreferenceCategory>
+
+    <!-- TRANSLATION SETTINGS -->
+    <PreferenceCategory android:title="Translation settings" >
+        <CheckBoxPreference
+            android:key="preference_translation_toggle_translation"
+            android:title="Translate" />
+
+        <ListPreference
+            android:dependency="preference_translation_toggle_translation"
+            android:entries="@array/translationtargetlanguagenames_google"
+            android:entryValues="@array/translationtargetiso6391_google"
+            android:key="targetLanguageCodeTranslationPref"
+            android:title="Translate to"/>
+    </PreferenceCategory>
+
+    <!-- ADVANCED SETTINGS -->
+    <PreferenceCategory android:title="OCR mode settings" >
+        <CheckBoxPreference
+            android:key="preference_tesseractonly"
+            android:title="Pre-Post Processing" android:summary="(For using Online OCR only)"/>
+
+        <ListPreference
+            android:entries="@array/ocrenginemodes"
+            android:entryValues="@array/ocrenginemodes"
+            android:key="preference_ocr_engine_mode"
+            android:title="OCR engine type" />
+
+        <CheckBoxPreference
+            android:key="preferences_auto_focus"
+            android:title="Autofocus" />
+
+        <EditTextPreference
+            android:key="preference_character_blacklist"
+            android:title="Character blacklist" />
+        <EditTextPreference
+            android:key="preference_character_whitelist"
+            android:title="Character whitelist" />
+
+        <!--
+		<CheckBoxPreference
+		    android:key="preference_toggle_light"
+		    android:title="Light"/>
+        -->
+
+        <ListPreference
+            android:entries="@array/pagesegmentationmodes"
+            android:entryValues="@array/pagesegmentationmodes"
+            android:key="preference_page_segmentation_mode"
+            android:title="Page segmentation" />
+
+        <CheckBoxPreference
+            android:key="preferences_reverse_image"
+            android:title="Edit Result" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

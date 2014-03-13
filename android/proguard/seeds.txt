@@ -1,0 +1,227 @@
+android.support.v4.app.BackStackState
+android.support.v4.app.BackStackState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.Fragment$SavedState
+android.support.v4.app.Fragment$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentActivity
+android.support.v4.app.FragmentManagerState
+android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentState
+android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.FragmentTabHost
+android.support.v4.app.FragmentTabHost: FragmentTabHost(android.content.Context)
+android.support.v4.app.FragmentTabHost: FragmentTabHost(android.content.Context,android.util.AttributeSet)
+android.support.v4.app.FragmentTabHost: void setup()
+android.support.v4.app.FragmentTabHost: void setup(android.content.Context,android.support.v4.app.FragmentManager)
+android.support.v4.app.FragmentTabHost: void setup(android.content.Context,android.support.v4.app.FragmentManager,int)
+android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
+android.support.v4.app.FragmentTabHost$SavedState
+android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
+android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
+android.support.v4.view.PagerTabStrip
+android.support.v4.view.PagerTabStrip: PagerTabStrip(android.content.Context)
+android.support.v4.view.PagerTabStrip: PagerTabStrip(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
+android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
+android.support.v4.view.PagerTabStrip: void setPadding(int,int,int,int)
+android.support.v4.view.PagerTabStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.PagerTabStrip: void setBackgroundColor(int)
+android.support.v4.view.PagerTabStrip: void setBackgroundResource(int)
+android.support.v4.view.PagerTabStrip: void setDrawFullUnderline(boolean)
+android.support.v4.view.PagerTitleStrip
+android.support.v4.view.PagerTitleStrip: PagerTitleStrip(android.content.Context)
+android.support.v4.view.PagerTitleStrip: PagerTitleStrip(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.PagerTitleStrip: void setTextSpacing(int)
+android.support.v4.view.PagerTitleStrip: void setNonPrimaryAlpha(float)
+android.support.v4.view.PagerTitleStrip: void setTextColor(int)
+android.support.v4.view.PagerTitleStrip: void setTextSize(int,float)
+android.support.v4.view.PagerTitleStrip: void setGravity(int)
+android.support.v4.view.ViewPager
+android.support.v4.view.ViewPager: ViewPager(android.content.Context)
+android.support.v4.view.ViewPager: ViewPager(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager: void setAdapter(android.support.v4.view.PagerAdapter)
+android.support.v4.view.ViewPager: void setCurrentItem(int)
+android.support.v4.view.ViewPager: void setCurrentItem(int,boolean)
+android.support.v4.view.ViewPager: void setOnPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+android.support.v4.view.ViewPager: void setPageTransformer(boolean,android.support.v4.view.ViewPager$PageTransformer)
+android.support.v4.view.ViewPager: void setOffscreenPageLimit(int)
+android.support.v4.view.ViewPager: void setPageMargin(int)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.drawable.Drawable)
+android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
+android.support.v4.view.ViewPager$LayoutParams
+android.support.v4.view.ViewPager$LayoutParams: ViewPager$LayoutParams(android.content.Context,android.util.AttributeSet)
+android.support.v4.view.ViewPager$SavedState
+android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+com.googlecode.leptonica.android.AdaptiveMap
+com.googlecode.leptonica.android.AdaptiveMap: int nativeBackgroundNormMorph(int,int,int,int)
+com.googlecode.leptonica.android.Binarize
+com.googlecode.leptonica.android.Binarize: int nativeOtsuAdaptiveThreshold(int,int,int,int,int,float)
+com.googlecode.leptonica.android.Box
+com.googlecode.leptonica.android.Box: int nativeCreate(int,int,int,int)
+com.googlecode.leptonica.android.Box: int nativeGetX(int)
+com.googlecode.leptonica.android.Box: int nativeGetY(int)
+com.googlecode.leptonica.android.Box: int nativeGetWidth(int)
+com.googlecode.leptonica.android.Box: int nativeGetHeight(int)
+com.googlecode.leptonica.android.Box: void nativeDestroy(int)
+com.googlecode.leptonica.android.Box: boolean nativeGetGeometry(int,int[])
+com.googlecode.leptonica.android.Convert
+com.googlecode.leptonica.android.Convert: int nativeConvertTo8(int)
+com.googlecode.leptonica.android.Enhance
+com.googlecode.leptonica.android.Enhance: int nativeUnsharpMasking(int,int,float)
+com.googlecode.leptonica.android.JpegIO
+com.googlecode.leptonica.android.JpegIO: byte[] nativeCompressToJpeg(int,int,boolean)
+com.googlecode.leptonica.android.Pix
+com.googlecode.leptonica.android.Pix: int nativeCreatePix(int,int,int)
+com.googlecode.leptonica.android.Pix: int nativeCreateFromData(byte[],int,int,int)
+com.googlecode.leptonica.android.Pix: boolean nativeGetData(int,byte[])
+com.googlecode.leptonica.android.Pix: int nativeGetDataSize(int)
+com.googlecode.leptonica.android.Pix: int nativeClone(int)
+com.googlecode.leptonica.android.Pix: int nativeCopy(int)
+com.googlecode.leptonica.android.Pix: boolean nativeInvert(int)
+com.googlecode.leptonica.android.Pix: void nativeDestroy(int)
+com.googlecode.leptonica.android.Pix: boolean nativeGetDimensions(int,int[])
+com.googlecode.leptonica.android.Pix: int nativeGetWidth(int)
+com.googlecode.leptonica.android.Pix: int nativeGetHeight(int)
+com.googlecode.leptonica.android.Pix: int nativeGetDepth(int)
+com.googlecode.leptonica.android.Pix: int nativeGetPixel(int,int,int)
+com.googlecode.leptonica.android.Pix: void nativeSetPixel(int,int,int,int)
+com.googlecode.leptonica.android.Pixa
+com.googlecode.leptonica.android.Pixa: int nativeCreate(int)
+com.googlecode.leptonica.android.Pixa: int nativeCopy(int)
+com.googlecode.leptonica.android.Pixa: int nativeSort(int,int,int)
+com.googlecode.leptonica.android.Pixa: boolean nativeJoin(int,int)
+com.googlecode.leptonica.android.Pixa: int nativeGetCount(int)
+com.googlecode.leptonica.android.Pixa: void nativeDestroy(int)
+com.googlecode.leptonica.android.Pixa: void nativeAddPix(int,int,int)
+com.googlecode.leptonica.android.Pixa: void nativeAddBox(int,int,int)
+com.googlecode.leptonica.android.Pixa: void nativeAdd(int,int,int,int)
+com.googlecode.leptonica.android.Pixa: boolean nativeWriteToFileRandomCmap(int,java.lang.String,int,int)
+com.googlecode.leptonica.android.Pixa: void nativeReplacePix(int,int,int,int)
+com.googlecode.leptonica.android.Pixa: void nativeMergeAndReplacePix(int,int,int)
+com.googlecode.leptonica.android.Pixa: int nativeGetBox(int,int)
+com.googlecode.leptonica.android.Pixa: int nativeGetPix(int,int)
+com.googlecode.leptonica.android.Pixa: boolean nativeGetBoxGeometry(int,int,int[])
+com.googlecode.leptonica.android.ReadFile
+com.googlecode.leptonica.android.ReadFile: int nativeReadMem(byte[],int)
+com.googlecode.leptonica.android.ReadFile: int nativeReadBytes8(byte[],int,int)
+com.googlecode.leptonica.android.ReadFile: boolean nativeReplaceBytes8(int,byte[],int,int)
+com.googlecode.leptonica.android.ReadFile: int nativeReadFiles(java.lang.String,java.lang.String)
+com.googlecode.leptonica.android.ReadFile: int nativeReadFile(java.lang.String)
+com.googlecode.leptonica.android.ReadFile: int nativeReadBitmap(android.graphics.Bitmap)
+com.googlecode.leptonica.android.Rotate
+com.googlecode.leptonica.android.Rotate: int nativeRotate(int,float,boolean)
+com.googlecode.leptonica.android.Scale
+com.googlecode.leptonica.android.Scale: int nativeScale(int,float,float)
+com.googlecode.leptonica.android.Scale$ScaleType: com.googlecode.leptonica.android.Scale$ScaleType[] values()
+com.googlecode.leptonica.android.Scale$ScaleType: com.googlecode.leptonica.android.Scale$ScaleType valueOf(java.lang.String)
+com.googlecode.leptonica.android.Skew
+com.googlecode.leptonica.android.Skew: float nativeFindSkew(int,float,float,int,int,float)
+com.googlecode.leptonica.android.WriteFile
+com.googlecode.leptonica.android.WriteFile: int nativeWriteBytes8(int,byte[])
+com.googlecode.leptonica.android.WriteFile: boolean nativeWriteFiles(int,java.lang.String,int)
+com.googlecode.leptonica.android.WriteFile: byte[] nativeWriteMem(int,int)
+com.googlecode.leptonica.android.WriteFile: boolean nativeWriteImpliedFormat(int,java.lang.String,int,boolean)
+com.googlecode.leptonica.android.WriteFile: boolean nativeWriteBitmap(int,android.graphics.Bitmap)
+com.googlecode.tesseract.android.TessBaseAPI
+com.googlecode.tesseract.android.TessBaseAPI: int mNativeData
+com.googlecode.tesseract.android.TessBaseAPI: void nativeClassInit()
+com.googlecode.tesseract.android.TessBaseAPI: void nativeConstruct()
+com.googlecode.tesseract.android.TessBaseAPI: void nativeFinalize()
+com.googlecode.tesseract.android.TessBaseAPI: boolean nativeInit(java.lang.String,java.lang.String)
+com.googlecode.tesseract.android.TessBaseAPI: boolean nativeInitOem(java.lang.String,java.lang.String,int)
+com.googlecode.tesseract.android.TessBaseAPI: java.lang.String nativeGetInitLanguagesAsString()
+com.googlecode.tesseract.android.TessBaseAPI: void nativeClear()
+com.googlecode.tesseract.android.TessBaseAPI: void nativeEnd()
+com.googlecode.tesseract.android.TessBaseAPI: void nativeSetImageBytes(byte[],int,int,int,int)
+com.googlecode.tesseract.android.TessBaseAPI: void nativeSetImagePix(int)
+com.googlecode.tesseract.android.TessBaseAPI: void nativeSetRectangle(int,int,int,int)
+com.googlecode.tesseract.android.TessBaseAPI: java.lang.String nativeGetUTF8Text()
+com.googlecode.tesseract.android.TessBaseAPI: int nativeMeanConfidence()
+com.googlecode.tesseract.android.TessBaseAPI: int[] nativeWordConfidences()
+com.googlecode.tesseract.android.TessBaseAPI: boolean nativeSetVariable(java.lang.String,java.lang.String)
+com.googlecode.tesseract.android.TessBaseAPI: void nativeSetDebug(boolean)
+com.googlecode.tesseract.android.TessBaseAPI: void nativeSetPageSegMode(int)
+com.googlecode.tesseract.android.TessBaseAPI: int nativeGetRegions()
+com.googlecode.tesseract.android.TessBaseAPI: int nativeGetTextlines()
+com.googlecode.tesseract.android.TessBaseAPI: int nativeGetStrips()
+com.googlecode.tesseract.android.TessBaseAPI: int nativeGetWords()
+com.googlecode.tesseract.android.TessBaseAPI: int nativeGetCharacters()
+com.memetix.mst.language.Language: com.memetix.mst.language.Language[] values()
+com.memetix.mst.language.Language: com.memetix.mst.language.Language valueOf(java.lang.String)
+com.memetix.mst.language.SpokenDialect: com.memetix.mst.language.SpokenDialect[] values()
+com.memetix.mst.language.SpokenDialect: com.memetix.mst.language.SpokenDialect valueOf(java.lang.String)
+hpcc.hut.edu.vn.ocr.CaptureActivity
+hpcc.hut.edu.vn.ocr.CaptureActivity: CaptureActivity()
+hpcc.hut.edu.vn.ocr.CaptureActivityHandler$State: hpcc.hut.edu.vn.ocr.CaptureActivityHandler$State[] values()
+hpcc.hut.edu.vn.ocr.CaptureActivityHandler$State: hpcc.hut.edu.vn.ocr.CaptureActivityHandler$State valueOf(java.lang.String)
+hpcc.hut.edu.vn.ocr.PreferencesActivity
+hpcc.hut.edu.vn.ocr.PreferencesActivity: PreferencesActivity()
+hpcc.hut.edu.vn.ocr.R$array: int capturemodes
+hpcc.hut.edu.vn.ocr.R$array: int iso6391
+hpcc.hut.edu.vn.ocr.R$array: int iso6393
+hpcc.hut.edu.vn.ocr.R$array: int languagenames
+hpcc.hut.edu.vn.ocr.R$array: int ocrenginemodes
+hpcc.hut.edu.vn.ocr.R$array: int pagesegmentationmodes
+hpcc.hut.edu.vn.ocr.R$array: int translationtargetiso6391_google
+hpcc.hut.edu.vn.ocr.R$array: int translationtargetiso6391_microsoft
+hpcc.hut.edu.vn.ocr.R$array: int translationtargetlanguagenames_google
+hpcc.hut.edu.vn.ocr.R$array: int translationtargetlanguagenames_microsoft
+hpcc.hut.edu.vn.ocr.R$color: int help_button_view
+hpcc.hut.edu.vn.ocr.R$color: int help_view
+hpcc.hut.edu.vn.ocr.R$color: int result_minor_text
+hpcc.hut.edu.vn.ocr.R$color: int result_text
+hpcc.hut.edu.vn.ocr.R$color: int result_view
+hpcc.hut.edu.vn.ocr.R$color: int status_text
+hpcc.hut.edu.vn.ocr.R$color: int status_top_text_background
+hpcc.hut.edu.vn.ocr.R$color: int translation_text
+hpcc.hut.edu.vn.ocr.R$color: int viewfinder_corners
+hpcc.hut.edu.vn.ocr.R$color: int viewfinder_frame
+hpcc.hut.edu.vn.ocr.R$color: int viewfinder_mask
+hpcc.hut.edu.vn.ocr.R$drawable: int background
+hpcc.hut.edu.vn.ocr.R$drawable: int background_pressed
+hpcc.hut.edu.vn.ocr.R$drawable: int ic_launcher
+hpcc.hut.edu.vn.ocr.R$drawable: int shutter
+hpcc.hut.edu.vn.ocr.R$drawable: int shutter_button
+hpcc.hut.edu.vn.ocr.R$drawable: int shutter_pressed
+hpcc.hut.edu.vn.ocr.R$id: int camera_button_view
+hpcc.hut.edu.vn.ocr.R$id: int decode
+hpcc.hut.edu.vn.ocr.R$id: int decode_failed
+hpcc.hut.edu.vn.ocr.R$id: int decode_succeeded
+hpcc.hut.edu.vn.ocr.R$id: int image_view
+hpcc.hut.edu.vn.ocr.R$id: int indeterminate_progress_indicator_view
+hpcc.hut.edu.vn.ocr.R$id: int ocr_continuous_decode
+hpcc.hut.edu.vn.ocr.R$id: int ocr_continuous_decode_failed
+hpcc.hut.edu.vn.ocr.R$id: int ocr_continuous_decode_succeeded
+hpcc.hut.edu.vn.ocr.R$id: int ocr_decode
+hpcc.hut.edu.vn.ocr.R$id: int ocr_decode_failed
+hpcc.hut.edu.vn.ocr.R$id: int ocr_decode_succeeded
+hpcc.hut.edu.vn.ocr.R$id: int ocr_result_text_view
+hpcc.hut.edu.vn.ocr.R$id: int preview_view
+hpcc.hut.edu.vn.ocr.R$id: int progress_small
+hpcc.hut.edu.vn.ocr.R$id: int quit
+hpcc.hut.edu.vn.ocr.R$id: int restart_preview
+hpcc.hut.edu.vn.ocr.R$id: int result_view
+hpcc.hut.edu.vn.ocr.R$id: int shutter_button
+hpcc.hut.edu.vn.ocr.R$id: int source_language_text_view
+hpcc.hut.edu.vn.ocr.R$id: int source_language_text_view_label
+hpcc.hut.edu.vn.ocr.R$id: int status_view_bottom
+hpcc.hut.edu.vn.ocr.R$id: int status_view_top
+hpcc.hut.edu.vn.ocr.R$id: int translation_language_label_text_view
+hpcc.hut.edu.vn.ocr.R$id: int translation_language_text_view
+hpcc.hut.edu.vn.ocr.R$id: int translation_text_view
+hpcc.hut.edu.vn.ocr.R$id: int viewfinder_view
+hpcc.hut.edu.vn.ocr.R$layout: int capture
+hpcc.hut.edu.vn.ocr.R$string: int app_name
+hpcc.hut.edu.vn.ocr.R$styleable: int[] ViewfinderView
+hpcc.hut.edu.vn.ocr.R$xml: int preferences
+hpcc.hut.edu.vn.ocr.ViewfinderView
+hpcc.hut.edu.vn.ocr.ViewfinderView: ViewfinderView(android.content.Context,android.util.AttributeSet)
+hpcc.hut.edu.vn.ocr.ViewfinderView: void setCameraManager(hpcc.hut.edu.vn.ocr.camera.CameraManager)
+hpcc.hut.edu.vn.ocr.camera.ShutterButton
+hpcc.hut.edu.vn.ocr.camera.ShutterButton: ShutterButton(android.content.Context)
+hpcc.hut.edu.vn.ocr.camera.ShutterButton: ShutterButton(android.content.Context,android.util.AttributeSet)
+hpcc.hut.edu.vn.ocr.camera.ShutterButton: ShutterButton(android.content.Context,android.util.AttributeSet,int)
+hpcc.hut.edu.vn.ocr.camera.ShutterButton: void setOnShutterButtonListener(hpcc.hut.edu.vn.ocr.camera.ShutterButton$OnShutterButtonListener)
+org.apache.http.entity.mime.HttpMultipartMode: org.apache.http.entity.mime.HttpMultipartMode[] values()
+org.apache.http.entity.mime.HttpMultipartMode: org.apache.http.entity.mime.HttpMultipartMode valueOf(java.lang.String)

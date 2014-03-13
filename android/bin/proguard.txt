@@ -1,0 +1,21 @@
+# view AndroidManifest.xml #generated:47
+-keep class hpcc.hut.edu.vn.ocr.CaptureActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:59
+-keep class hpcc.hut.edu.vn.ocr.ImageViewerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:84
+-keep class hpcc.hut.edu.vn.ocr.PreferencesActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:66
+-keep class hpcc.hut.edu.vn.ocr.ResultActivity { <init>(...); }
+
+# view res/layout/capture.xml #generated:28
+-keep class hpcc.hut.edu.vn.ocr.ViewfinderView { <init>(...); }
+
+# view res/layout/capture.xml #generated:203
+-keep class hpcc.hut.edu.vn.ocr.camera.GetImageButton { <init>(...); }
+
+# view res/layout/capture.xml #generated:177
+-keep class hpcc.hut.edu.vn.ocr.camera.ShutterButton { <init>(...); }
+
